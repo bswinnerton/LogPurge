@@ -1,3 +1,10 @@
+#######################################################################################
+## logPurge.ps1                                                                      ##
+##                                                                                   ##
+## This script is designed to traverse all folders (and subfolders) in a given       ##
+## directory and delete stagnant files that are no longer required.                  ##
+#######################################################################################
+
 ## You must set the execution policy to unrestricted before running this script. 
 ## Manually execute this command before running this script
 #Set-ExecutionPolicy Unrestricted
