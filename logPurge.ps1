@@ -18,7 +18,7 @@
 
 ## Define Variables
 
-# Number of days to keep logs
+# Number of days to keep files
 $days = 14
 
 # Path to files in question
