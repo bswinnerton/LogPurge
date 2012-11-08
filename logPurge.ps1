@@ -5,7 +5,7 @@
 ## Define Variables
 
 # Number of days to keep logs
-$days = 30;
+$days = 14
 
 # Path to files in question
 $path = "E:\Apache2.2\logs"
@@ -25,3 +25,5 @@ foreach ($file in Get-ChildItem $path -recurse)
 		Remove-Item $file.FullName
 	}
 }
+
+exit
