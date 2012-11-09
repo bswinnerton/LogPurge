@@ -30,6 +30,8 @@ $today = (Get-Date)
 # Date to match for files to be deleted
 $deleteDate = (Get-Date).AddDays(-$days)
 
+
+
 ## Code execution
 
 foreach ($file in Get-ChildItem $path -recurse)
